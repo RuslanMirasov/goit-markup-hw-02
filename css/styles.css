@@ -26,6 +26,7 @@ body {
 /*----------------------- BUTTONS*/
 
 .button {
+  display: inline-block;
   font-family: 'Roboto', verdana;
   font-size: 16px;
   font-weight: 500;
@@ -57,13 +58,30 @@ body {
   border: 1px solid var(--ocean-color);
 }
 
+/*----------------------- TYPOGRAPHY*/
+
+.title {
+  font-size: 36px;
+  line-height: 1.111111;
+  font-weight: 700;
+  text-align: center;
+  color: var(--navy-blue-color);
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--navy-blue-color);
+}
+
 /*----------------------- HEADER*/
 
 .header {
   box-sizing: border-box;
   background: var(--white-color);
   border-bottom: 1px solid var(--cornflower-color);
-  padding: 24px 0px;
 }
 
 .logo {
@@ -109,4 +127,50 @@ body {
 .header__contacts a:hover,
 .header__contacts a:focus {
   color: var(--ocean-color);
+}
+
+/*----------------------- SECTION HERO*/
+
+.section--hero {
+  background: var(--navy-blue-color);
+}
+
+.section--hero .title {
+  font-size: 56px;
+  line-height: 1.071428;
+  color: var(--white-color);
+}
+
+/*----------------------- SECTION ABOUT US*/
+
+.about-us,
+.services,
+.team,
+.portfolio-filter,
+.portfolio {
+  list-style: none;
+}
+
+/*----------------------- SECTION TEAM*/
+
+.section--team {
+  background: var(--cloud-color);
+}
+
+.team__card {
+  background: var(--white-color);
+}
+
+/*----------------------- SECTION PORTFOLIO*/
+
+.portfolio a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*----------------------- FOOTER*/
+
+.footer {
+  background: var(--navy-blue-color);
+  color: var(--white-color);
 }
