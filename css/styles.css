@@ -14,13 +14,21 @@
 }
 
 body {
-  font-family: 'Roboto', verdana;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: normal;
   color: var(--slate-color);
   margin: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /*----------------------- BUTTONS*/
@@ -62,7 +70,7 @@ body {
 
 .title {
   font-size: 36px;
-  line-height: 1.111111;
+  line-height: 1.1;
   font-weight: 700;
   text-align: center;
   color: var(--navy-blue-color);
@@ -85,27 +93,21 @@ body {
 }
 
 .logo {
-  font-family: 'Raleway', verdana;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.166666;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
-  color: var(--navy-blue-color);
-}
-
-.logo span {
   color: var(--iris-color);
 }
 
-.footer .logo {
-  color: var(--white-color);
+.logo span {
+  color: var(--navy-blue-color);
 }
 
-.header__menu,
-.header__contacts {
-  list-style: none;
+.footer .logo span {
+  color: var(--white-color);
 }
 
 .header__menu a,
@@ -114,7 +116,6 @@ body {
   font-weight: 500;
   font-style: normal;
   color: var(--navy-blue-color);
-  text-decoration: none;
   outline: none;
 }
 
@@ -137,18 +138,8 @@ body {
 
 .section--hero .title {
   font-size: 56px;
-  line-height: 1.071428;
+  line-height: 1.07;
   color: var(--white-color);
-}
-
-/*----------------------- SECTION ABOUT US*/
-
-.about-us,
-.services,
-.team,
-.portfolio-filter,
-.portfolio {
-  list-style: none;
 }
 
 /*----------------------- SECTION TEAM*/
@@ -164,7 +155,6 @@ body {
 /*----------------------- SECTION PORTFOLIO*/
 
 .portfolio a {
-  text-decoration: none;
   color: inherit;
 }
 
