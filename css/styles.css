@@ -102,12 +102,12 @@ body {
   color: var(--iris-color);
 }
 
-.logo span {
+.invers_color {
   color: var(--navy-blue-color);
 }
 
-.footer .logo span {
-  color: var(--white-color);
+.footer .invers_color {
+  color: var(--cloud-color);
 }
 
 .header__menu .link,
@@ -163,5 +163,5 @@ body {
 
 .footer {
   background: var(--navy-blue-color);
-  color: var(--white-color);
+  color: var(--cloud-color);
 }
