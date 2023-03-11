@@ -110,23 +110,24 @@ body {
   color: var(--white-color);
 }
 
-.header__menu a,
-.header__contacts a {
+.header__menu .link,
+.header__contacts .link {
   font-size: 16px;
+  line-height: 1.5;
   font-weight: 500;
   font-style: normal;
   color: var(--navy-blue-color);
   outline: none;
 }
 
-.header__contacts a {
+.header__contacts .link {
   font-weight: 400;
 }
 
-.header__menu a:hover,
-.header__menu a:focus,
-.header__contacts a:hover,
-.header__contacts a:focus {
+.header__menu .link:hover,
+.header__menu .link:focus,
+.header__contacts .link:hover,
+.header__contacts .link:focus {
   color: var(--ocean-color);
 }
 
@@ -154,7 +155,7 @@ body {
 
 /*----------------------- SECTION PORTFOLIO*/
 
-.portfolio a {
+.portfolio .link {
   color: inherit;
 }
 
